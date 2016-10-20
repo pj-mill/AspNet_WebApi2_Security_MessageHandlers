@@ -60,8 +60,8 @@ namespace Client
             PrintTitle("Sending request with good credentials and bad api key");
             await SendRequest(client, "api/test/testpoint", CreateBasicCredentials("SuperAdmin", "P@assword!"), "asdasdasdasdasd");
 
-            PrintTitle("Sending request with good credentials and good api key");
-            await SendRequest(client, "api/test/testpoint", CreateBasicCredentials("SuperAdmin", "P@assword!"), apiKey);
+            PrintTitle("Sending request with good credentials and good api key: TO AUTHORIZED POINT");
+            await SendRequest(client, "api/test/testauthpoint", CreateBasicCredentials("SuperAdmin", "P@assword!"), apiKey);
 
 
             // ----------------- Terminate
