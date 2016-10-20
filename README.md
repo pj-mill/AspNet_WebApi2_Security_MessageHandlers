@@ -12,6 +12,9 @@ Developed with Visual Studio 2015 Community
 |Tech|
 |----|
 |C#|
+|EntityFramework|
+|ASP.Net Identity|
+|OWIN|
 
 ---
 
