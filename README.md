@@ -14,6 +14,7 @@ Developed with Visual Studio 2015 Community
 |C#|
 |EntityFramework|
 |ASP.Net Identity|
+|Web Api 2|
 |OWIN|
 
 ---
