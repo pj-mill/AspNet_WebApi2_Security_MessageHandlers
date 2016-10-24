@@ -27,6 +27,10 @@ Both handlers must be successful for the request to proceed down the pipeline.
 
 If the users credentials are authenticated, we set the identity principal within the requests context. This allows the user to access an [Authorized] end point.
 
+#### TESTING
+
+Run the Api first, then the console app.
+
 The console app uses HttpClient to make 4 calls to the web service of which only one will succeed.
 
 ---
